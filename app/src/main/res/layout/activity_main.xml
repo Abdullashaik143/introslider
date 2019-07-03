@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+    <ImageView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_margin_big"
+            android:src="@drawable/gre" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/intro_comment_margin"
+            android:paddingLeft="@dimen/intro_comment_margin"
+            android:paddingRight="@dimen/intro_comment_margin"
+            android:text="@string/repeat_intro_desc"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/intro_comment_fontsize" />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/intro_bullets"
+            android:layout_margin="@dimen/activity_margin_big"
+            android:alpha=".8"
+            android:background="@color/colorPrimaryDark" />
+    <Button
+            android:id="@+id/btn_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/intro_comment_margin"
+            android:background="@null"
+            android:text="@string/repeat_intro_title"
+            android:textColor="@color/intro_bullet_active"
+            android:textSize="@dimen/intro_button_fontsize" />
+</LinearLayout>

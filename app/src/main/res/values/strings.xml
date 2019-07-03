@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Intro Slider Demo</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next_button_title">NEXT</string>
+    <string name="skip_button_title">SKIP</string>
+    <string name="done_button_title">FINISH</string>
+    <string name="intro_1_title">Add To Cart</string>
+    <string name="intro_1_desc">Online shopping is so easy. Just Add Items to your cart.</string>
+    <string name="intro_2_title">Check Out</string>
+    <string name="intro_2_desc">Choose right items and select exact quantities for your final purchase!</string>
+    <string name="intro_3_title">Make Payment</string>
+    <string name="intro_3_desc">Enter your debit/credit card details for secure online payment!</string>
+    <string name="intro_4_title">Instant Delivery</string>
+    <string name="intro_4_desc">3 Hours to 3 Days Max. Whatever your location is, Our true commitment!</string>
+    <string name="repeat_intro_title">Repeat Again</string>
+    <string name="repeat_intro_desc">To see the welcome intro slides again, click on the below button</string>
+</resources>

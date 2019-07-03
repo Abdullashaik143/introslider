@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">10dp</dimen>
+    <dimen name="activity_margin_big">40dp</dimen>
+    <dimen name="intro_bullet_size">30dp</dimen>
+    <dimen name="intro_bullet_margin">30dp</dimen>
+    <dimen name="intro_comment_fontsize">12dp</dimen>
+    <dimen name="intro_button_fontsize">18dp</dimen>
+    <dimen name="intro_comment_margin">20dp</dimen>
+    <dimen name="intro_image_width">300dp</dimen>
+    <dimen name="intro_image_height">450dp</dimen>
+</resources>

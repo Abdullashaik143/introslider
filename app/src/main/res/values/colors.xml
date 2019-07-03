@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A569BD</color>
+    <color name="colorPrimaryDark">#8E44AD</color>
+    <color name="colorAccent">#8AE622</color>
+    <!-- dots inactive colors -->
+    <color name="intro_bullet_inactive">#cacaca</color>
+    <!-- dots active colors -->
+    <color name="intro_bullet_active">#8E44AD</color>
+    <array name="array_intro_bullet_inactive">
+        <item>@color/intro_bullet_inactive</item>
+        <item>@color/intro_bullet_inactive</item>
+        <item>@color/intro_bullet_inactive</item>
+        <item>@color/intro_bullet_inactive</item>
+    </array>
+    <array name="array_intro_bullet_active">
+        <item>@color/intro_bullet_active</item>
+        <item>@color/intro_bullet_active</item>
+        <item>@color/intro_bullet_active</item>
+        <item>@color/intro_bullet_active</item>
+    </array>
+</resources>
